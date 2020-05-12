@@ -11,7 +11,8 @@
   <project groups="kai" name="gonk-misc" path="gonk-misc" remote="kaios" revision="master"/>
   <project groups="kai" name="hidl-gen" path="system/tools/hidl" remote="kaios" revision="master"/>
   <project groups="kai" name="libcarthage" path="gonk-misc/libcarthage" remote="kaios" revision="android_10"/>
-
+  <project groups="kai" name="gonk-binder" path="gonk-misc/gonk-binder" remote="kaios" revision="master"/>
+  
   <!-- Fake impl. for AOSP -->
   <project groups="kai" name="fake_test" path="test" remote="kaios" revision="master">
     <copyfile dest="frameworks/base/packages/Android.mk" src="vts/tools/build/Android.host_config.mk"/>
