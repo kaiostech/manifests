@@ -34,6 +34,7 @@
   </project>
   <project groups="kai" name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_system_core" path="system/core" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="device_generic_goldfish" path="device/generic/goldfish" remote="kaios" revision="gonk_android-10.0.0_r11" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -48,7 +49,6 @@
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" />
