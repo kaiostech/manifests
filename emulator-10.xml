@@ -34,6 +34,7 @@
   </project>
   <project groups="kai" name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_system_core" path="system/core" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="platform_system_vold" path="system/vold" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="device_generic_goldfish" path="device/generic/goldfish" remote="kaios" revision="gonk_android-10.0.0_r11" />
 
   <!-- AOSP -->
@@ -526,7 +527,6 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
   <project path="system/ucontainer" name="platform/system/ucontainer" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="toolchain/benchmark" name="toolchain/benchmark" />
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" />
