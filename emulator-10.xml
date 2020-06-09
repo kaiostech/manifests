@@ -6,6 +6,4 @@
   <project groups="kai" name="device_generic_goldfish" path="device/generic/goldfish" remote="kaios" revision="gonk_android-10.0.0_r11" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
-  <remove-project path="art" name="platform/art" />
-  <project groups="kai" name="platform_art" path="art" remote="kaios" revision="gonk_android-10.0.0_r11"/>
 </manifest>
