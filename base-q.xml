@@ -7,7 +7,7 @@
 
   <!-- KaiOS -->
   <project groups="kai" name="gecko-b2g" path="gecko" remote="kaios" revision="gonk"/>
-  <project groups="kai" name="gonk-misc" path="gonk-misc" remote="kaios" revision="master"/>
+  <project groups="kai" name="gonk-misc" path="gonk-misc" remote="kaios" revision="main"/>
   <project groups="kai" name="hidl-gen" path="system/tools/hidl" remote="kaios" revision="master"/>
   <project groups="kai" name="libcarthage" path="gonk-misc/libcarthage" remote="kaios" revision="android_10"/>
   <project groups="kai" name="gonk-binder" path="gonk-misc/gonk-binder" remote="kaios" revision="master"/>
