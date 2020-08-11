@@ -36,6 +36,7 @@
   <project groups="kai" name="platform_system_vold" path="system/vold" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_art" path="art" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_external_svox" path="external/svox" remote="kaios" revision="master"/>
+  <project groups="kai" name="librecovery" path="librecovery" remote="kaios" revision="master"/>
 
   <include name="aosp.xml"/>
 
