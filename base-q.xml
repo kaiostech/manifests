@@ -6,6 +6,7 @@
   <default revision="refs/tags/android-10.0.0_r11" remote="aosp" sync-j="4"/>
 
   <!-- KaiOS -->
+  <project groups="kai" name="api-daemon" path="gonk-misc/api-daemon" remote="kaios" revision="main"/>
   <project groups="kai" name="gecko-b2g" path="gecko" remote="kaios" revision="gonk"/>
   <project groups="kai" name="gonk-misc" path="gonk-misc" remote="kaios" revision="main"/>
   <project groups="kai" name="hidl-gen" path="system/tools/hidl" remote="kaios" revision="master"/>
